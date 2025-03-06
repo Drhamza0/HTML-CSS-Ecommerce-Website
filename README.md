@@ -32,7 +32,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/yourusername/ecommerce-website.git
+git clone https://github.com/Drhamza0/HTML-CSS-Ecommerce-Website.git
 
 Open index.html in your browser.
 
