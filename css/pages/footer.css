@@ -1,0 +1,14 @@
+footer{
+    text-align: center;
+    background-color: var(--footer-bg);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-block: 1rem;
+    color: white;
+    font-size: 17px;
+
+    & span{
+        color: #ff7790;
+        text-transform: capitalize;
+    }
+}

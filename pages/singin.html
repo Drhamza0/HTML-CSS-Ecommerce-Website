@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/pages/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="../images/bag-shopping-solid.svg" type="image/x-icon">
+
+    <style>
+        .fa-solid{
+            color: white;
+        }
+        body {
+            text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+            box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+        }
+
+        main {
+            max-width: 500px;
+        }
+
+        footer{
+            background-color: transparent;
+        }
+    </style>
+    <title>Sign In</title>
+</head>
+<body style="height: 100vh; display: grid; grid-template-rows: auto 1fr auto;
+align-items: center;" 
+class="text-center text-bg-dark">
+
+    <header class="flex">
+        <a href="../index.html" class="logo">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span style="font-weight: bold;">YMT</span>
+            <p style="letter-spacing: 0.5px;">Shopping</p>
+        </a >
+        <div class="links">
+            <a class="cart" href="./cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+                $0.00
+                <span class="products-number">2</span>
+            </a>
+            <a class="sign-in border" href="#">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Sing in
+            </a>
+            <a class="register " href="./register.html">
+                <i class="fa-solid fa-user-plus"></i>
+                Register
+            </a>
+        </div>
+    </header>
+
+
+    <main class="px-3">
+        <form style="text-align: left;">
+            <div class="mb-4">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-4">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-4 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+    </main>
+
+    <footer class="lead">
+        Designed and developed by 
+        <span>Hamza Dayrek</span>
+        © 2024
+
+    </footer>
+
+
+
+</body>
+</html>
